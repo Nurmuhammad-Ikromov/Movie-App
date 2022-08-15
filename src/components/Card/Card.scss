@@ -1,0 +1,28 @@
+@import '../../assets/styles/variables.scss';
+.card {
+    position: relative;
+	width: $card-width;
+	background-color: #fff;
+	border-radius: $card-radius;
+    margin-bottom: 40px;
+}
+
+.card-img {
+	width: $card-width;
+	border-top-left-radius: $card-radius;
+	border-top-right-radius: $card-radius;
+}
+.card-body{
+}
+.card-vote {
+    position: absolute;
+    top: 365px;
+    left: 10px;
+    display: inline-block;
+    width: 42px;
+    padding: 12px;
+    text-align: center;
+    background-image: url("../../assets/images/star.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

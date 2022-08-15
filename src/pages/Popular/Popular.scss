@@ -1,0 +1,13 @@
+@import '../../assets/styles/mixin.scss';
+@import '../../assets/styles/variables.scss';
+
+.popular{
+    background-color: $main-bg-color;
+}
+.movie-list {
+	@include flex-starter;
+	@include list-starter;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+}

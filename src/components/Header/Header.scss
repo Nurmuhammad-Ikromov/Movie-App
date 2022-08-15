@@ -1,0 +1,48 @@
+@import '../../assets/styles/mixin.scss';
+@import '../../assets/styles/variables.scss';
+
+.site-header {
+	// position: fixed;
+	// top: 0;
+	// left: 0;
+	// right: 0;
+	// order: -1;
+	padding: 20px 0;
+    background-color: $bg-color;
+}
+
+.site-header__inner{
+	display: flex;
+	align-items: center;
+}
+.site-header__input{
+	margin-left: auto;
+}
+.navbar__list {
+	@include flex-starter;
+	@include list-starter;
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.navbar__item + .navbar__item {
+	margin-left: 40px;
+}
+
+.navbar__link {
+	text-decoration: none;
+	font-size: 24px;
+	line-height: 30px;
+	cursor: pointer;
+    color: #fff;
+}
+
+.active-link{
+	text-decoration: none;
+	font-size: 24px;
+	line-height: 30px;
+	cursor: pointer;
+	color: #61DAFB;
+}
+

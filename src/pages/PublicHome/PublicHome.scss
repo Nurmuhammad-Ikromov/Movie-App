@@ -1,0 +1,13 @@
+@import '../../assets/styles/mixin.scss';
+
+.public {
+	height: 100vh;
+	background-image: url('../../assets/images/movie-bgc.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+.public__header {
+	@include flex-starter;
+	justify-content: space-between;
+    padding: 20px 0;
+}

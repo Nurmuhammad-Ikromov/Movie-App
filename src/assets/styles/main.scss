@@ -1,0 +1,12 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+img{
+    vertical-align: middle;
+}
